@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav flex-center">
+      <div class="nav__botton flex-center">
+        <a href="./home.html" class="nav__botton__link">HOME</a>
+
+        <input
+          data-testid="search-input"
+          class="nav__botton__search"
+          type="text"
+          placeholder="search"
+        />
+      </div>
+      <div class="nav__title">WOMAN AND LIFE</div>
+      <div id="log-wrapper" class="nav__contact color">
+        <a href="./sign up.html" class="nav__contact__link color">Sign up</a>
+        <a href="./sign in.html" class="nav__contact__link color">Sign in</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_introduce">
+        <div class="main_content">
+          <h2>INFLUENTIAL WOMEN OF COLOR</h2>
+          <p>
+            Dù quá khứ đen tối hay tương lai có phần tươi sáng hơn đối với họ.
+            Họ vẫn mạnh mẽ, vẫn đấu tranh và cống hiến cho thế giới.
+          </p>
+        </div>
+        <div class="main_img">
+          <img class="img_a" src="./img/Maya Angelou.jpg" alt="" />
+          <img class="img_b" src="./img/Zozibini Tunzi.jpg" alt="" />
+        </div>
+      </div>
+      <div class="main_slide">
+        <section class="main_slidephoto">
+          <img src="./img/Amelia Earhart.jpg"" class="slide">
+          <img src="./img/Tubman1.jpg" alt="" class="slide" />
+          <img src="./img/Toni-Ann-Singh2.webp" alt="" class="slide" />
+        </section>
+        <script>
+          w3.slideshow(".slide", 2000);
+        </script>
+      </div>
+      <div class="main_information">
+        <div class="infor">
+          <img src="./img/Maya-Angelou2.jpg" alt="" class="i" />
+          <a target="_blank" href="./Maya Angelou.html" class="main_infor_link"
+            >Maya Angelou</a
+          >
+        </div>
+        <div class="infor">
+          <img src="./img/Emmeline Pankhurst.webp" alt="" class="i" />
+          <a
+            target="_blank"
+            href="./Emmeline Pankhurst.html"
+            class="main_infor_link"
+            >Emmeline Pankhurst</a
+          >
+        </div>
+        <div class="infor">
+          <img src="./img/Benazir Bhutto.jpg" alt="" class="i" />
+          <a
+            target="_blank"
+            href="./Benazir Bhutto.html"
+            class="main_infor_link"
+            >Benazir Bhutto</a
+          >
+        </div>
+      </div>
+      <div class="group">
+        <div class="b">
+          <div class="a">
+            <img id="img-post" src="./img/toni ann singh.jpg" alt="" />
+            <div>
+              <p id="content-post">
+                Toni-Ann Singh (sinh ngày 3 tháng 2 năm 1996) là ca sĩ và hoa
+                hậu người Jamaica, cô đăng quang Hoa hậu Thế giới 2019. Trước đó
+                cô đã đăng quang Hoa hậu Thế giới Jamaica 2019 và là người phụ
+                nữ thứ tư đến từ Jamaica đăng quang cuộc thi Hoa hậu Thế giới và
+                cô cũng là Hoa hậu Thế giới có nhiệm kỳ lâu nhất trong lịch sử
+                của cuộc thi vì cuộc thi Hoa hậu Thế giới đã hủy phiên bản 2020
+                và hoãn phiên bản 2021 đến 2022 mới có thể tổ chức đêm chung
+                kết. Vào năm 2019, Singh tham gia cuộc thi Hoa hậu Thế giới
+                Jamaica 2019 và cuối cùng cô đã đăng quang ngôi vị hoa hậu...
+              </p>
+              <a
+                target="_blank"
+                href="./toni ann singh.html"
+                class="link"
+                id="link-post"
+                >view more</a
+              >
+            </div>
+            <div id="btn">next</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --deep-brown: #8E3200;
+    --brown: #A64B2A;
+    --light-brown: #D7A86E;
+    --skin:#fdead3 ;
+    --gray: #7d6f71;
+    --dark-brown: #411d29;
+}
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7d6f71;
+    height: 80px;
+}
+.nav__botton {
+    background-color: #7d6f71;
+}
+.nav__botton__search {
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 4px 10px;
+    outline: none;
+}
+.color {
+    background-color: #7d6f71;
+}
+.nav__title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.nav__contact {
+    padding-right: 20px;
+}
+.nav__contact__link,
+.nav__botton__link {
+    padding: 6px;
+    font-size: 23px;
+    color: #fdead3;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nav__contact__link:hover,
+.nav__botton__link:hover {
+    background-color: #411d29;
+}
+.background {
+    background-color: #fdead3;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.signup_img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.signup_img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.signup_noi-dung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.form{
+    width: 50%;
+}
+h2{
+    color: #8E3200;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #7d6f71;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.input-form{
+    margin-bottom: 20px;
+}
+.input-form span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #8E3200;
+    letter-spacing: 1px;
+     }
+.input-form input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #8E3200;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8E3200;
+    background: transparent;
+    border-radius: 30px;
+    }
+.input-form .link {
+    width: 200px;
+    padding: 0 20px;
+    transition: all 0.5s ease;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8E3200;
+    border-radius: 20px;
+    text-decoration: none;
+    background: #fdead3;
+    color: #D7A86E;
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+               0 2px 2px rgba(0,0,0,0.12),
+               0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+.input-form .link:hover {
+    background: #8E3200;
+    color: #fdead3;
+    border-color: #D7A86E;
+    border-radius: 20px;
+}
+.nho-dang-nhap{
+    margin-bottom: 10px;
+    color: #8E3200;
+    font-size: 14px;
+}
